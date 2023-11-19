@@ -17,10 +17,10 @@ export default function Dashboard() {
   });
   const [buttonYes, setButtonYes] = useState({
     category_6: true,
-    category_7: true,
-    category_8: true,
-    category_9: true,
-    category_10: true,
+    category_7: false,
+    category_8: false,
+    category_9: false,
+    category_10: false,
   });
 
   async function fetchDashboardData() {
